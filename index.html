@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Autenticação</title>
+</head>
+
+<body>
+
+   
+    <div class="form">
+        <h2>Autenticação</h2>
+        <div class="content">
+        <form action="" method="get">
+           
+            <label for="nome"> <img class="img" src="./img/icons8-usuário-30.png" alt=""> <span>Login</span></label>
+            <br>
+            <input type="text" id="login" placeholder="Insira seu username:">
+            <br> <br>
+           
+            <label for="senha"> <img class="img" src="./img/icons8-senha-30.png" alt=""> <span>Senha</span> </label>
+            <br>
+            <input type="password" id="senha" placeholder="Insira sua senha:">
+            <br>
+            <input id="button" type="button" value="Enviar" onclick="autenticar()">
+        </form>
+        </div>
+        <p id="mensagem"></p>
+    </div>
+</body>
+
+</html>
