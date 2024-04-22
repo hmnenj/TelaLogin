@@ -40,9 +40,6 @@
         letter-spacing: 1px;
     }
 
-input{
-    margin-bottom: 20px;
-}
 
 span{
     position: absolute;
@@ -55,7 +52,7 @@ input{
     padding: 5px 10px;
     background-color: #ffffff; 
     border-radius: 20px;
-    
+    margin-bottom: 20px;
 }
 
 body{
